@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    margin:0px;
+}
+
+
+
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.headerNav ul {
+    list-style: none;
+    margin : 0;
+    padding : 0;
+}
+
+.headerNav li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* -------------------------------------------- */
+.website-info{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+/* -------------------------------------------- */
+
+.information h1{
+    text-align: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.info-display{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.information-square{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+
+.square{
+    border: 4px solid #3882F6;
+    border-radius: 30px;
+    padding: 100px 50px;
+
+}
+
+.quote{
+        padding-left: 10%;
+        padding-right: 10%;
+}
+
+/* -------------------------------------------- */
+.sign-up{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* -------------------------------------------- */
+footer{
+    text-align: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*-----------------------------------------------*/
+/*---------------STYLING-------------------------*/
+.headerNav{
+    background-color: #1F2937;
+}
+
+.headerNav header{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerNav li{
+    color: #E5E7EB;
+    font-size:18px;
+}
+
+.headerNav a:visited{
+    color: white;
+}
+
+
+/*-----------------------------------------------*/
+
+.website-info{
+    background-color: #1F2937 ;
+}
+
+.website-info h1{
+    font-weight: 900 ;
+    font-size: 48px;
+    color: #F9FAF8;
+
+    padding-bottom: 1px;
+}
+
+.website-info img{
+    border: 1px solid white;
+    height: 150px ;
+    width:300px;
+    margin:30px;
+}
+
+.website-info p{
+    color: #E5E7EB;
+    font-size: 18px;
+
+    padding-bottom: 5px;
+}
+
+.website-info button{
+    background-color:#3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+
+    border-radius: 5px;
+    border: None;
+
+    padding: 3px 10px;
+}
+
+/*-----------------------------------------------*/
+.information{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.information h1{
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+/*-----------------------------------------------*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+    ;
+    background-color: #E5E7EB;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote #quoter{
+    font-size: 20px;
+    font-weight: 900px;
+    font-style: normal;
+    align-self: flex-end;
+}
+
+/*-----------------------------------------------*/
+.sign-up{
+    background-color: #3882F6;
+    margin: 70px;
+    border-radius: 10px;
+}
+
+.sign-up h3,p{
+    color: #F9FAF8;
+}
+
+.sign-up button{
+    background-color:#3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+
+    border-radius: 5px;
+    border: 2px solid white;
+
+
+    padding: 3px 20px;
+}
+
+/*-----------------------------------------------*/
+
+footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 20px 0px;
+}
